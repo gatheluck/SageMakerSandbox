@@ -26,6 +26,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
+sagemaker = "^2.135.1.post0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"

@@ -12,6 +12,7 @@
   - [Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/tag/ml-enablement-series/)
 - AWS Black Belt Amazon SageMaker Trainingで機械学習のモデル開発を楽にする
   - [YouTube](https://www.youtube.com/watch?v=byEawTm4O4E)
+  - [GitHub](https://github.com/aws-samples/aws-ml-jp/tree/main/sagemaker/sagemaker-traning/tutorial)
   - [Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/tag/ml-enablement-series/)
 - AWS Black Belt Amazon SageMaker Training ハンズオン編
   - [YouTube](https://www.youtube.com/watch?v=tgo2F2OY5bU)
