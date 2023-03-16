@@ -1,22 +1,22 @@
 .PHONY: black-check
 black-check:
-	poetry run black --check src scripts tests
+	poetry run black --check src scripts tests app.py stack.py
 
 .PHONY: black
 black:
-	poetry run black src scripts tests
+	poetry run black src scripts tests app.py stack.py
 
 .PHONY: flake8
 flake8:
-	poetry run flake8 src scripts tests
+	poetry run flake8 src scripts tests app.py stack.py
 
 .PHONY: isort-check
 isort-check:
-	poetry run isort --check-only src scripts tests
+	poetry run isort --check-only src scripts tests app.py stack.py
 
 .PHONY: isort
 isort:
-	poetry run isort src scripts tests
+	poetry run isort src scripts tests app.py stack.py
 
 .PHONY: mdformat
 mdformat:
@@ -28,7 +28,7 @@ mdformat-check:
 
 .PHONY: mypy
 mypy:
-	poetry run mypy src scripts 
+	poetry run mypy src scripts app.py stack.py
 
 .PHONY: test
 test:
