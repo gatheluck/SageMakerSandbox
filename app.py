@@ -1,7 +1,8 @@
 from typing import Final
 
 import aws_cdk
-from lib.sagemaker_stack import SageMakerSdkStack
+
+from stack import SageMakerSdkStack
 
 _arg_context: Final = "env"
 
