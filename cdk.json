@@ -1,0 +1,9 @@
+{
+    "app": "python3 app.py",
+    "context": {
+        "project_name": "sagemaker-sdk-sandbox",
+        "dev": {
+            "region": "ap-northeast-1"
+        }
+    }
+}
