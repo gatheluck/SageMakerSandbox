@@ -43,6 +43,7 @@ Then let's deploy IAM role for SageMaker jobs.
 
 ```bash
 % export AWS_PROFILE=<YOUR_AWS_PROFILE>
+% export SAGEMAKER_ROLE_ARN=<YOUR_SAGEMAKER_ROLE_ARN>
 
 % poetry install
 % poetry run python scripts/<PY_FILE_NAME>
