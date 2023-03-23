@@ -4,6 +4,22 @@ import subprocess
 
 print("---enter calc.py---")
 
+# check under /opt
+cp = subprocess.run(["ls", "-la", "/opt"], capture_output=True)
+print(cp.stdout)
+# aws
+# conda
+# ml
+
+# check under /opt/ml
+cp = subprocess.run(["ls", "-la", "/opt/ml"], capture_output=True)
+print(cp.stdout)
+# drwxr-xr-x 2 root root   21 Mar 23 12:34 code
+# drwxr-xr-x 2 root root 4096 Mar 23 12:33 errors
+# drwxr-xr-x 4 root root 4096 Mar 23 12:33 input
+# drwxr-xr-x 2 root root 4096 Mar 23 12:33 model
+# drwxr-xr-x 6 root root 4096 Mar 23 12:34 output
+
 # check current directry
 print(os.getcwd())  # /opt/ml/code
 cp = subprocess.run("ls", capture_output=True)

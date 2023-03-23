@@ -1,4 +1,3 @@
-data/*
 models/*
 outputs/*
 __pycache__
@@ -7,6 +6,5 @@ __pycache__
 .pytest_cache
 .venv
 cdk.out
-!data/README.md
 !models/README.md
 !outputs/README.md
