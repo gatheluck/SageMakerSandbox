@@ -69,3 +69,5 @@ Then let's deploy IAM role for SageMaker jobs.
 - [Amazon SageMaker Pricing](https://aws.amazon.com/sagemaker/pricing/)
 
 - [Prior SageMaker Framework Container Versions](https://github.com/aws/deep-learning-containers/blob/master/available_images.md#prior-sagemaker-framework-container-versions)
+
+- [aws/sagemaker-training-toolkit/ENVIRONMENT_VARIABLES.md](https://github.com/aws/sagemaker-training-toolkit/blob/master/ENVIRONMENT_VARIABLES.md)
