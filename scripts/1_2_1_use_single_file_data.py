@@ -20,9 +20,9 @@ if __name__ == "__main__":
     # uplaod data to S3 bucket
     # https://sagemaker.readthedocs.io/en/stable/api/utility/session.html#sagemaker.session.Session.upload_data
     input_s3_uri = sagemaker.session.Session().upload_data(
-        path="./data/1-2-2",
+        path="./data/1_2_1/calc.txt",
         bucket=sagemaker.session.Session().default_bucket(),
-        key_prefix="training/1-2-2",
+        key_prefix="training/1_2_1",
     )
     print(input_s3_uri)
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
     # https://sagemaker.readthedocs.io/en/stable/frameworks/pytorch/sagemaker.pytorch.html#sagemaker.pytorch.estimator.PyTorch
     estimator = PyTorch(
-        entry_point="./src/1-2-2/calc_1-2-2.py",
+        entry_point="./src/1_2_1/calc.py",
         py_version="py38",
         # https://github.com/aws/deep-learning-containers/blob/master/available_images.md#prior-sagemaker-framework-container-versions
         framework_version="1.12.1",

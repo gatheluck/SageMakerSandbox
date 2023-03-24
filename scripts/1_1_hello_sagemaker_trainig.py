@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     # https://sagemaker.readthedocs.io/en/stable/frameworks/pytorch/sagemaker.pytorch.html#sagemaker.pytorch.estimator.PyTorch
     estimator = PyTorch(
-        entry_point="./src/1-1/hello_sagemaker_training.py",
+        entry_point="./src/1_1/hello_sagemaker_training.py",
         py_version="py38",
         # https://github.com/aws/deep-learning-containers/blob/master/available_images.md#prior-sagemaker-framework-container-versions
         framework_version="1.12.1",
