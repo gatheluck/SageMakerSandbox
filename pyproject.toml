@@ -15,6 +15,9 @@ keywords = [
 [tool.poetry.dependencies]
 python = "^3.8"
 sagemaker = "^2.135.1.post0"
+docker-compose = "^1.29.2"
+awscli = "^1.27.109"
+boto3 = "^1.26.109"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"
