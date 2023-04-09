@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     if use_local:
         sagemaker_session = LocalSession()
-        sagemaker_session.config = {'local': {'local_code': True}}
+        sagemaker_session.config = {"local": {"local_code": True}}
 
         input_uri = "file://./data/1_2_1/calc.txt"
     else:
@@ -38,7 +38,6 @@ if __name__ == "__main__":
         )
 
     print(f"input_uri: {input_uri}")
-
 
     # https://sagemaker.readthedocs.io/en/stable/frameworks/pytorch/sagemaker.pytorch.html#sagemaker.pytorch.estimator.PyTorch
     estimator = PyTorch(
